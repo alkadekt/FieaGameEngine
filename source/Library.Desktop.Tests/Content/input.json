@@ -1,0 +1,31 @@
+{
+	"name": {
+		"type": "string",
+		"value": "Andrew"
+	},
+	"transform": {
+		"type": "vector",
+		"value": "bvec4(1.0, 2.0, 3.0, 4.0)"
+	},
+	"velocity": {
+		"type": "vector",
+		"value": "bvec4(1.0, 2.0, 3.0, 4.0)"
+	},
+	"favoritenumbers": {
+		"type": "integer",
+		"value": [ 7, 77, 777 ]
+	},
+	"nestedobjects": {
+		"type": "table",
+		"value": {
+			"powerlevel": {
+				"type": "float",
+				"value": 3.4
+			},
+			"powercount": {
+				"type": "integer",
+				"value": 2
+			}
+		}
+	}
+}

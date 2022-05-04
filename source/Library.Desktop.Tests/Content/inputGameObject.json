@@ -1,0 +1,42 @@
+{
+	"Name": {
+		"type": "string",
+		"value": "Andrew"
+	},
+	"Transform": {
+		"Position": {
+			"type": "vector",
+			"value": "bvec4(1.0, 2.0, 3.0, 4.0)"
+		},
+		"Rotation": {
+			"type": "vector",
+			"value": "bvec4(2.0, 2.0, 3.0, 4.0)"
+		},
+		"Scale": {
+			"type": "vector",
+			"value": "bvec4(3.0, 2.0, 3.0, 4.0)"
+		}
+	},
+	"Children": [
+		{
+			"type": "table",
+			"class": "GameObject",
+			"value": {
+				"Name": {
+					"type": "string",
+					"value": "What"
+				}
+			}
+		},
+		{
+			"type": "table",
+			"class": "GameObject",
+			"value": {
+				"Name": {
+					"type": "string",
+					"value": "Bruh"
+				}
+			}
+		}
+	]
+}
